@@ -1,0 +1,72 @@
+<div class='page-header'>
+  <h1>
+    <%= t('Travel Info') %>
+    <div class='pull-right'>
+      <%= link_to edit_travel_path(@travel), class: 'btn btn-info' do %>
+        <i class='glyphicon glyphicon-pencil'></i> <%= t('Edit') %>
+      <% end %>
+      <%= link_to travels_path, class: 'btn btn-warning' do %>
+        <i class='glyphicon glyphicon-backward'></i> <%= t('Back') %>
+      <% end %>
+      <%= link_to travel_path(@travel, format: 'pdf'), class: 'btn btn-success' do %>
+        <i class='glyphicon glyphicon-list-alt'></i> <%= t('Pdf') %>
+      <% end %>
+    </div>
+  </h1>
+</div>
+
+<div class='panel panel-default'>
+  <div class='panel-body'>
+  <h1><%=t("Travel_name")%></h1>
+    <p>
+      <strong><%=t("Name")%></strong>
+      <%= @travel.name %>
+    </p>
+    <p>
+      <strong><%=t("Day")%></strong>
+      <%= @travel.day %>
+    </p>
+    <p>
+      <strong><%=t("Description")%></strong>
+      <%= @travel.description %>
+    </p>
+
+    <hr><h1><%=t("Event")%></h1></hr>
+    <% @travel.events.each do |event|%>
+      <p>
+        <strong><%=t("Name_event")%></strong>
+          <%= event.name %>  
+      </p>
+      <p>
+        <strong><%=t("Day_event")%></strong>
+          <%= event.day %>  
+      </p>
+      <p>
+        <strong><%=t("Description_event")%></strong>
+          <%= event.description %>  
+      </p>  
+    <% end %>
+
+    <hr><h1><!--%=t("Driver")%--></h1></hr>
+    <!--% @travel.vehicles.each do |vehicle|%-->
+      <p>
+        <strong><!--%=t("order_number")%--></strong>
+          <!--%= vehicle.order_number %-->  
+      </p>
+      <p>
+        <strong><!--%=t("seat")%--></strong>
+          <!--%= vehicle.seat %-->  
+      </p>
+      <p>
+        <strong><!--%=t("Empresa")%--></strong>
+          <!--%= vehicle.to_s %-->  
+      </p>
+      <p>
+        <strong><!--%=t("Vehicle")%--></strong>
+          <!--% vehicle.drivers.each do |driver| %-->
+            <!--%= driver.person.name %-->
+          <!--% end %-->    
+      </p>
+    <!--% end %-->
+  </div>
+</div>

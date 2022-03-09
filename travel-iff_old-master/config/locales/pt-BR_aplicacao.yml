@@ -1,0 +1,217 @@
+pt-BR:
+
+  Start Bootstrap: Controle de Viagem
+
+  Portfolio: Imagens
+  About: Sobre
+  Contact: Contato
+
+  Start Bootstrap: Controle de Viagem
+  Web Developer - Graphic Artist - User Experience Designer: Ruby - Rails - Devise - Bootstrap - Paperclip - SimpleForm - Postgres
+  Freelancer: Aplicação criada para avaliação final da disciplina de Framework para Desenvolvimento de Sistemas.
+  Whether: Tem como foco a criação de uma aplicação para cadastramento e acompanhamento de viagens.
+  Copyright: Aplicação Ruby on Rails
+  Project Title: Imagens
+  Use: Exemplo de viagens.
+  April 2014: Setembro
+  Web Development: "2016"
+  Client: "Cliente:"
+  Date: "Data:"
+  Service: "Serviço:"
+  Close: Fechar
+  Sign up: Criar Login
+  Log in: Entrar
+  Travel IFF: Controle de Viagem
+  Sign in: Entrar
+  Forgot your password?: Esqueceu sua senha?
+  TravelIff: Controle de Viagem
+
+  Travel was successfully created: Viagem foi criada com sucesso.
+  Travel was successfully updated: Viagem foi atualizada com sucesso.
+  Travel was successfully destroyed: Viagem foi excluída com sucesso.
+  Event was successfully created: Evento foi criado com sucesso.
+  Event was successfully updated: Evento foi atualizado com sucesso.
+  Event was successfully destroyed: Evento foi excluído com sucesso.
+  Student was successfully created: Estudante foi criado com sucesso.
+  Student was successfully updated: Estudante foi atualizado com sucesso.
+  Student was successfully destroyed: Estudante foi excluído com sucesso.
+  Driver was successfully created: Motorista foi criado com sucesso.
+  Driver was successfully updated: Motorista foi atualizado com sucesso.
+  Driver was successfully destroyed: Motorista foi excluído com sucesso.
+  Vehicle was successfully created: Veículo foi criado com sucesso.
+  Vehicle was successfully updated: Veículo foi atualizado com sucesso.
+  Vehicle was successfully destroyed: Veículo foi excluído com sucesso.
+  Bus company was successfully created: Companhia foi criada com sucesso.
+  Bus company was successfully updated: Companhia foi atualizada com sucesso.
+  Bus company was successfully destroyed: Companhia foi excluída com sucesso.
+
+
+
+  Are you sure?: Você tem certeza?
+  Show: Visualizar
+  Edit: Editar
+  Destroy: Excluir
+  Back: Voltar
+  Image: Imagem
+  Travel_name: Nome da Viagem
+  Event: Evento
+  Driver: Motorista
+  Student: Estudante
+  Travels: "  Viagens"
+  Events: "  Eventos"
+  Students: "  Estudantes"
+  Drivers: "  Motoristas"
+  Vehicle: "  Veículos"
+  Bus Company: "  Empresas"
+
+  Table_bus_company: Tabela de Empresas
+  Table_driver: Tabela de Motoristas
+  Table_event: Tabela de Eventos
+  Table_student: Tabela de Estudantes
+  Table_travel: Tabela de Viagens
+  Table_vehicle: Tabela de Veículos
+
+  Name_event: "Nome: "
+  Day_event: "Data: "
+  Description_event: "Descrição: "
+  student_name: "Nome: "
+  order_number: "Numero de Ordem: "
+  seat: "Lugares: "
+  Empresa: "Empresa: "
+
+  Contact Me: Contato
+  Name: Nome
+  Email Address: Email
+  Phone Number: Telefone
+  Message: Mensagem
+  Send: Enviar
+  Location: Endereço
+  endereço: Rua das Couves
+  Beverly: Avenida Liberdade
+  Around the Web: Links
+  About Freelancer: Sobre
+  Freelance: Estudantes da Pós Análise e Gestão em Sistemas de Informação
+
+
+  Listing Students: Estudantes
+  New Student:  Cadastrar Estudante
+  Student Info: Informações de Estudante
+  Registration: 'Carteira de estudante:'
+  Editing Student: Editar Estudante
+
+  Listing Drivers: Motoristas
+  New Driver:  Cadastrar Motorista
+  Driver Info: Informações de Motorista
+  Name: "Nome: "
+  Phone: "Telefone: "
+  Identity: "Identidade: "
+  Cpf: "CPF: "
+  Birth: "Idade: "
+  Cnh: "CNH: "
+  Category: "Categoria: "
+  Editing Driver: Editar Motorista
+  Cnpj: "CNPJ: "
+  Seat: "Lugares: "
+  Number: "Numero de Ordem: "
+  Price: "Valor: "
+  Day: "Data: "
+  Description: "Descrição: "
+  Travell: "Viagem: "
+  
+  Listing Travels: Viagens
+  New Travel: Cadastrar Viagem
+  Travel Info: Informações da Viagem
+  Editing Travel: Editar Viagem
+  Travel: Controle de Viagem
+  
+  Listing Vehicles: Veículos
+  New Vehicle: Cadastrar Veículo
+  Vehicle Info: Informações de Veículo
+  Editing Vehicle: Editar Veículo
+  
+  Listing BusCompanies: Empresas
+  New BusCompany: Cadastrar Empresa
+  Buscompany Info: Informações da Empresa
+  Editing BusCompany: Editar Empresa
+  
+  Listing Events: Eventos
+  New Event: Cadastrar Evento
+  Event Info: Informações do Evento
+  Editing Event: Editar Evento
+
+
+  activerecord:
+    models:
+      
+      travel: Viagem
+      student: Estudante
+      driver: Motorista
+      vehicles: Veículos
+      companies: Empresas
+      bus_company: Empresa
+      event: Eventos
+      vehicle: Veículo
+
+
+      user: Usuário
+    attributes:
+      
+      person:
+        name: "Nome: "
+        phone: "Telefone: "
+        address: "Endereço: "
+        identity: "Identidade: "
+        cpf: "CPF: "
+        birth: "Data de Nascimento: "
+      
+      driver:
+        cnh: "CNH: "
+        category: "Categoria: "
+        vehicle: "Veículo: "
+      
+      student:
+        registration: "Registro: "
+        travel: "Viagem: "
+        event: "Evento: "
+      
+      bus_company:
+        cnpj: "CNPJ: "
+        name: "Nome: "
+      
+      event:
+        name: "Nome do Evento: "
+        day: "Data: "
+        description: "Descrição: "
+        travel: "Viagem: "
+      
+      vehicle:
+        seat: "Lugares: "
+        order_number: "Numero de Ordem: "
+        price: "Valor: "
+        travel: "Viagem: "
+        bus_company: "Companhia de Ônibus: "
+
+      travel:
+        name: "Nome da Viagem: "
+        day: "Data: "
+        description: "Descrição: "
+
+    pagination:
+      truncate: "truncar"
+      next: "Próximo"
+      last: "Ultimo"
+      first: "Primeiro"
+      previous: "Anterior"
+
+  You can confirm your account email through the link below: "Você pode confirmar seu e-mail da conta através do link abaixo:"
+  Confirm my account: Confirmar minha conta
+  We're contacting you to notify you that your password has been changed: Estamos em contato com você para notificá-lo de que sua senha foi alterada
+  Someone has requested a link to change your password. You can do this through the link below: Alguém pediu um link para alterar sua senha. Você pode fazer isso através do link abaixo.
+  Change my password: Alterar minha senha
+  If you didn't request this, please ignore this email: Se você não solicitou esta, por favor ignore este e-mail.
+  Your password won't change until you access the link above and create a new one: Sua senha não vai mudar até que você acessar o link acima e criar um novo.
+  Hello: Olá
+  Your account has been locked due to an excessive number of unsuccessful sign in attempts: A sua conta foi bloqueada devido a um número excessivo de tentativas de login sem sucesso.
+  Click the link below to unlock your account: Clique no link abaixo para desbloquear sua conta
+  Unlock my account: Desbloquear minha conta
+  Welcome: Bem Vindo!    
